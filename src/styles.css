@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: 'Bungee';
+    src: url('./assets/fonts/bungee.ttf');
+}
+
+#jumbotron {
+    background-image: url(assets/img/arcadejumbo2.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    opacity: 100%;
+}
+
+#marco {
+    background-image: url(assets/img/fondonav.png);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    opacity: 100%;
+}
